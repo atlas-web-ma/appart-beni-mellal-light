@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Atlas Immo Beni Mellal - Appartements à vendre & louer</title>
+<title>Atlas Immo Beni Mellal - Appartements</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 <style>*{margin:0;padding:0;box-sizing:border-box;font-family:'Plus Jakarta Sans',sans-serif}body{background:#f8fafc}
 header{background:#fff;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.05);position:sticky;top:0;z-index:10}
-.logo{font-weight:800;font-size:21px} .logo span{color:#2563eb}
-.hero{background:linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.75)),url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?q=80&w=1974');background-size:cover;background-position:center;padding:85px 5%;color:#fff;text-align:center}
-.hero h1{font-size:44px;line-height:1.1} .hero h1 span{color:#60a5fa}
+.logo{font-weight:800;font-size:21px}.logo span{color:#2563eb}
+.hero{background:linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.75)),url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=1200&q=80');background-size:cover;background-position:center;padding:85px 5%;color:#fff;text-align:center}
+.hero h1{font-size:44px;line-height:1.1}.hero h1 span{color:#60a5fa}
 .search{background:#fff;max-width:900px;margin:-40px auto 40px;padding:18px;border-radius:14px;display:flex;gap:10px;flex-wrap:wrap;box-shadow:0 15px 30px rgba(0,0,0,.12);position:relative}
 .search select{flex:1;padding:13px;border:1px solid #e2e8f0;border-radius:10px}
 .grid{padding:10px 5% 60px;display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:22px}
 .card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.07)}
-.img{height:210px;background-size:cover;background-position:center;position:relative}
-.badge{position:absolute;top:12px;left:12px;background:#2563eb;color:#fff;padding:6px 12px;border-radius:20px;font-size:11px;font-weight:700}
-.badge.green{background:#10b981}
-.body{padding:18px} .price{color:#2563eb;font-weight:800;font-size:20px;margin:8px 0}
-.infos{display:flex;gap:14px;color:#64748b;font-size:13px}
-.btn{padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}
-.btn-blue{background:#2563eb;color:#fff}
+.img{height:210px;background-size:cover;background-position:center;position:relative;background-color:#e2e8f0}
+.badge{position:absolute;top:12px;left:12px;background:#2563eb;color:#fff;padding:6px 12px;border-radius:20px;font-size:11px;font-weight:700}.badge.green{background:#10b981}
+.body{padding:18px}.price{color:#2563eb;font-weight:800;font-size:20px;margin:8px 0}.infos{display:flex;gap:14px;color:#64748b;font-size:13px}
+.btn{padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}.btn-blue{background:#2563eb;color:#fff}
+footer{background:#0f172a;color:#cbd5e1;padding:45px 5% 25px;margin-top:30px}
+.foot{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:25px}.foot h4{color:#fff;margin-bottom:10px}.foot p,a{color:#94a3b8;font-size:14px;line-height:1.8;text-decoration:none}
+.bottom{text-align:center;border-top:1px solid #1e293b;margin-top:30px;padding-top:18px;color:#475569;font-size:12px}
 </style></head><body>
 <header><div class="logo">ATLAS <span>IMMO</span> Beni Mellal</div><a class="btn btn-blue" href="https://wa.me/212600000000">WhatsApp</a></header>
-<div class="hero"><h1>Appartements à <span>Béni Mellal</span><br>à partir de 250.000 DH</h1><p style="margin:15px auto;opacity:.9;max-width:600px">Spécialiste appartements neufs et 2ème main à Béni Mellal</p></div>
+<div class="hero"><h1>Appartements a <span>Beni Mellal</span><br>a partir de 250.000 DH</h1></div>
 <div class="search">
 <select><option>Centre Ville</option><option>Oulad Yaich</option><option>Oulad Mbarek</option><option>Hay Atlas</option></select>
 <select><option>2 chambres</option><option>3 chambres</option><option>4 chambres</option></select>
-<select><option>250k - 400k DH</option><option>400k - 650k DH</option><option>650k - 900k DH</option></select>
+<select><option>250k - 400k DH</option><option>400k - 900k DH</option></select>
 <a class="btn btn-blue" href="#apparts">Chercher</a>
 </div>
 <div id="apparts" class="grid">
-<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2070')"><span class="badge">À VENDRE</span></div><div class="body"><h3>Appartement 3 ch - Oulad Yaich</h3><p>📍 Oulad Yaich, Marjane</p><div class="price">580.000 DH</div><div class="infos"><span>🛏️ 3 Ch</span><span>📐 95m²</span></div></div></div>
-<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1502672023488-70e25813eb80?q=80&w=1992')"><span class="badge green">À LOUER</span></div><div class="body"><h3>Meublé - Centre Ville</h3><p>📍 Av. Hassan II</p><div class="price">2.800 DH / mois</div><div class="infos"><span>🛏️ 2 Ch</span><span>📐 75m²</span></div></div></div>
-<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80')"><span class="badge">À VENDRE</span></div><div class="body"><h3>Haut Standing - Hay Atlas</h3><p>📍 Hay Atlas</p><div class="price">720.000 DH</div><div class="infos"><span>🛏️ 3 Ch</span><span>📐 120m²</span></div></div></div>
-<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1493809842364-78817add58d1?q=80&w=2070')"><span class="badge">À VENDRE</span></div><div class="body"><h3>Economique - Oulad Mbarek</h3><p>📍 Oulad Mbarek</p><div class="price">320.000 DH</div><div class="infos"><span>🛏️ 2 Ch</span><span>📐 68m²</span></div></div></div>
-<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80')"><span class="badge green">À LOUER</span></div><div class="body"><h3>Studio - Faculté</h3><p>📍 Près Fac</p><div class="price">1.500 DH / mois</div><div class="infos"><span>🛏️ 1 Ch</span><span>📐 45m²</span></div></div></div>
-<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&w=2070')"><span class="badge">À VENDRE</span></div><div class="body"><h3>4 chambres - Route FBS</h3><p>📍 Route Fkih Ben Salah</p><div class="price">890.000 DH</div><div class="infos"><span>🛏️ 4 Ch</span><span>📐 140m²</span></div></div></div>
+<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80')"><span class="badge">A VENDRE</span></div><div class="body"><h3>Appartement 3 ch - Oulad Yaich</h3><p style="color:#64748b;font-size:13px">📍 Oulad Yaich, Marjane - Beni Mellal</p><div class="price">580.000 DH</div><div class="infos"><span>🛏️ 3 Ch</span><span>📐 95m²</span><span>🏢 2e etage</span></div></div></div>
+<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1502672023488-70e25813eb80?w=800&q=80')"><span class="badge green">A LOUER</span></div><div class="body"><h3>Appartement meuble - Centre Ville</h3><p style="color:#64748b;font-size:13px">📍 Av. Hassan II, Centre - Beni Mellal</p><div class="price">2.800 DH / mois</div><div class="infos"><span>🛏️ 2 Ch</span><span>📐 75m²</span><span>🅿️ Garage</span></div></div></div>
+<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80')"><span class="badge">A VENDRE</span></div><div class="body"><h3>Appartement Haut Standing - Hay Atlas</h3><p style="color:#64748b;font-size:13px">📍 Hay Atlas, calme et securise</p><div class="price">720.000 DH</div><div class="infos"><span>🛏️ 3 Ch</span><span>📐 120m²</span><span>🌞 Balcon 20m²</span></div></div></div>
+<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80')"><span class="badge">A VENDRE</span></div><div class="body"><h3>Appartement Economique - Oulad Mbarek</h3><p style="color:#64748b;font-size:13px">📍 Oulad Mbarek, proche ecole</p><div class="price">320.000 DH</div><div class="infos"><span>🛏️ 2 Ch</span><span>📐 68m²</span><span>📄 Titre</span></div></div></div>
+<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80')"><span class="badge green">A LOUER</span></div><div class="body"><h3>Studio Moderne - Faculte</h3><p style="color:#64748b;font-size:13px">📍 Pres Fac Polydisciplinaire, Beni Mellal</p><div class="price">1.500 DH / mois</div><div class="infos"><span>🛏️ 1 Ch</span><span>📐 45m²</span><span>💡 Meuble</span></div></div></div>
+<div class="card"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80')"><span class="badge">A VENDRE</span></div><div class="body"><h3>Appartement 4 chambres - Route FBS</h3><p style="color:#64748b;font-size:13px">📍 Route Fkih Ben Salah</p><div class="price">890.000 DH</div><div class="infos"><span>🛏️ 4 Ch</span><span>📐 140m²</span><span>🏢 Duplex</span></div></div></div>
 </div>
-<div style="background:#0f172a;color:#fff;padding:60px 5%;text-align:center;border-radius:28px;margin:0 5% 30px"><h2>Vous vendez votre appart à Béni Mellal ?</h2><a class="btn" style="background:#fff;color:#0f172a;margin-top:15px" href="https://wa.me/212600000000">Estimer sur WhatsApp</a></div>
+<footer>
+<div class="foot">
+<div><h4>ATLAS IMMO</h4><p>Agence a Beni Mellal<br>Vente, location, estimation gratuite.</p></div>
+<div><h4>CONTACT</h4><p>📞 +212 600 00 00 00<br>📧 contact@atlas-immo.ma<br>📍 Av. Hassan II, Beni Mellal</p></div>
+<div><h4>WHATSAPP</h4><p><a href="https://wa.me/212600000000" style="color:#fff;background:#25D366;padding:8px 14px;border-radius:8px;display:inline-block">💬 Contacter sur WhatsApp</a></p></div>
+</div>
+<div class="bottom">© 2024 Atlas Immo Beni Mellal - Site cree par Atlas Web</div>
+</footer>
 </body></html>
